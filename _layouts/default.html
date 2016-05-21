@@ -16,7 +16,7 @@
 		{% for post in site.posts %}
 
 		<style type="text/css">
-			#sketch-1 {
+			.home #latest-sketches.content-container .slider-item {
 				background: url("{{ post.featured-image }}") center no-repeat;
 			}
 		</style>
@@ -26,7 +26,7 @@
 
 	<body>
 
-		<main>
+		<main class="home">
 
 			<header>
 				<nav id="site-nav">
@@ -46,6 +46,10 @@
 			{{ content }}
 
 		</main>
+
+		<!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="global.js"></script>
 
 	</body>
 
