@@ -2,14 +2,28 @@
 layout: default
 ---
 
-{% for post in site.posts %}
 
-    <span class="post-meta">{{ post.date | date: "%m-%d-%Y" }}</span>
+<article>
+	{% for post in site.posts %}
+        <div id="latest-sketches" class="content-container">
+            <div id="sketch-1" class="slider-item">
+                {{ post.content }}
+            </div>
+        </div>
+    {% endfor %}
+
+    <div id="mwilshire" class="content-container transparent"></div>
+    <div id="contact" class="content-container transparent">
+        <p>nein danke...</p>
+    </div>
+</article>
+
+<!--     <span class="post-meta">{{ post.date | date: "%m-%d-%Y" }}</span>
 
     <h2>
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
     </h2>
 
-    <img src="{{ post.featured-image }}">
+    <img src="{{ post.featured-image }}"> -->
 
-{% endfor %}
+
