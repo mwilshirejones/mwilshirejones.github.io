@@ -1,8 +1,0 @@
----
-layout: default
-title: "Sketch #1"
-date: "2016-05-16 21:00:50 +0200"
-categories: jekyll update
-published: true
-featured-image: "images/convolute-two.jpg"
----

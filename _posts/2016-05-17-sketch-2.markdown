@@ -1,8 +1,0 @@
----
-layout: default
-title: "Sketch #2"
-date: "2016-05-17 21:00:50 +0200"
-categories: jekyll update
-published: true
-featured-image: "http://riotdaily.com/wp-content/uploads/2014/04/wtfeyes-creepy-easter-bunny.jpg"
----
